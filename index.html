@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylecarta.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta</title>
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="stylecarta.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Carta</title>
+    </head>
+    <body>
+        <h1>Hola, Soy una carta abreme</h1>
+    
+        <div class="carta">
+            <img src="carta-de-amor.png" alt="carta de amor" onclick="mostrarCarta()">
+        </div>
+    
+        <div class="carta-contenido" id="cartaContenido">
+            <h2>Hey abriste la carta</h2>
+        </div>
+    
+        <script>
+            function mostrarCarta() {
+                var carta = document.getElementById("cartaContenido");
+                carta.style.display = carta.style.display === "none" ? "block" : "none"; // Alterna la visibilidad
+            }
+        </script>
+    </body>
+    </html>
+</body>
+</html>
